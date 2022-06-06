@@ -1,0 +1,113 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+  height: 80vh;
+  margin-left: -45vw;
+  margin-top: 10vh;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: blue
+}
+
+.grid-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid-cell {
+  width: 1.2vw;
+  height: 1.2vw;
+}
+
+.grid-cell-border {
+  background-color: white;
+  box-shadow:
+    2px 2px 2px rgb(167, 167, 167), 0px 1px 1px rgb(167, 167, 167), 0px 2px 1px rgb(167, 167, 167), 1px 1px 1px rgb(167, 167, 167), 1px 2px 1px rgb(167, 167, 167), 1px 3px 1px rgb(167, 167, 167), 2px 2px 1px rgb(167, 167, 167), 2px 3px 1px rgb(167, 167, 167), 2px 4px 1px rgb(167, 167, 167);
+}
+
+.grid-cell-snake {
+  background-color: rgb(207, 207, 207);
+  border-radius: 5px;
+  box-shadow:
+    2px 2px 2px rgb(167, 167, 167), 0px 1px 1px rgb(167, 167, 167), 0px 2px 1px rgb(167, 167, 167), 1px 1px 1px rgb(167, 167, 167), 1px 2px 1px rgb(167, 167, 167), 1px 3px 1px rgb(167, 167, 167), 2px 2px 1px rgb(167, 167, 167), 2px 3px 1px rgb(167, 167, 167), 2px 4px 1px rgb(167, 167, 167);
+}
+
+.grid-cell-snack {
+  background-color: blue;
+  border-radius: 5px;
+  box-shadow:
+    2px 2px 2px rgb(167, 167, 167), 0px 1px 1px rgb(167, 167, 167), 0px 2px 1px rgb(167, 167, 167), 1px 1px 1px rgb(167, 167, 167), 1px 2px 1px rgb(167, 167, 167), 1px 3px 1px rgb(167, 167, 167), 2px 2px 1px rgb(167, 167, 167), 2px 3px 1px rgb(167, 167, 167), 2px 4px 1px rgb(167, 167, 167);
+}
+
+.grid-cell-resume {
+  background-color: greenyellow;
+  border-radius: 5px;
+  box-shadow:
+    2px 2px 2px rgb(167, 167, 167), 0px 1px 1px rgb(167, 167, 167), 0px 2px 1px rgb(167, 167, 167), 1px 1px 1px rgb(167, 167, 167), 1px 2px 1px rgb(167, 167, 167), 1px 3px 1px rgb(167, 167, 167), 2px 2px 1px rgb(167, 167, 167), 2px 3px 1px rgb(167, 167, 167), 2px 4px 1px rgb(167, 167, 167);
+}
+
+.grid-cell-projects {
+  background-color: red;
+  border-radius: 5px;
+  box-shadow:
+    2px 2px 2px rgb(167, 167, 167), 0px 1px 1px rgb(167, 167, 167), 0px 2px 1px rgb(167, 167, 167), 1px 1px 1px rgb(167, 167, 167), 1px 2px 1px rgb(167, 167, 167), 1px 3px 1px rgb(167, 167, 167), 2px 2px 1px rgb(167, 167, 167), 2px 3px 1px rgb(167, 167, 167), 2px 4px 1px rgb(167, 167, 167);
+}
+
+
+.grid-cell-hit {
+  transition: 2s;
+  z-index: 1;
+  background-color: yellow;
+  box-shadow: 0 0 0 5px rgb(224, 215, 83),
+    0 0 0 10px rgb(243, 188, 7),
+    0 0 0 15px rgb(224, 158, 83),
+    0 0 0 20px rgb(246, 222, 7),
+    0 0 0 25px rgb(236, 165, 0),
+    0 0 0 30px rgb(255, 167, 3),
+    0 0 0 35px rgb(235, 63, 63);
+}
+
+.title {
+  color: rgb(56, 55, 55) !important;
+  font-size: 2.5vw;
+  font-family: 'semi-bold';
+  position: absolute;
+  right: 8vw;
+  margin-top: -0.1vh;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: white;
+  border: 1vw solid white;
+  box-shadow:
+    2px 2px 2px rgb(167, 167, 167), 0px 1px 1px rgb(167, 167, 167), 0px 3px 7px rgb(167, 167, 167), 1px 1px 1px rgb(167, 167, 167), 1px 2px 1px rgb(167, 167, 167), 1px 3px 1px rgb(167, 167, 167), 2px 2px 1px rgb(167, 167, 167), 2px 3px 1px rgb(167, 167, 167), 2px 4px 1px rgb(167, 167, 167);
+  text-shadow: 2px 2px 2px rgb(167, 167, 167), 0px 1px 1px rgb(167, 167, 167), 0px 3px 7px rgb(167, 167, 167), 1px 1px 1px rgb(167, 167, 167), 1px 2px 1px rgb(167, 167, 167), 1px 3px 1px rgb(167, 167, 167), 2px 2px 1px rgb(167, 167, 167), 2px 3px 1px rgb(167, 167, 167), 2px 4px 1px rgb(167, 167, 167);
+}
+
+#welcoming-msg {
+  height: 40vh;
+
+}
+
+
+#btn {
+  border: 3px solid white;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 25px;
+  /* width: 50vw; */
+  /* text-align: center; */
+}
+
+#btn:hover {
+  background-color: white;
+  color: black
+}

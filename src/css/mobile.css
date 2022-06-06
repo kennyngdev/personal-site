@@ -1,0 +1,225 @@
+@media (max-width: 420px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    body {
+        position: relative;
+    }
+
+    .app {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #000000;
+        margin-left: 0;
+        height: 100vh;
+        padding-top: 10vh;
+    }
+
+    .title {
+        display: none;
+        /* font-size: 8vw;
+        font-family: 'semi-bold';
+        position: auto;
+        width: 90vw;
+        top: 2%;
+        right: 0vw;
+        margin-top: -0.1vh;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-right: 5vw; */
+    }
+
+    .grid-cell {
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+
+
+
+    .arrows {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        top: 70vh;
+    }
+
+    .arrows li {
+        position: absolute;
+        top: 7.5vh;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        width: 10vw;
+        height: 10vw;
+        line-height: 5vh;
+        font-size: 15px;
+        font-family: "8-bit"
+    }
+
+    .arrows li:nth-child(1) {
+        top: 1vh;
+        left: 3.35vw;
+    }
+
+    .arrows li:nth-child(2) {
+        left: -8vw;
+    }
+
+
+    .arrows li:nth-child(3) {
+        left: 3.35vw;
+    }
+
+    .arrows li:nth-child(4) {
+        left: 14.5vw;
+    }
+
+
+    .profile {
+        width: 95vw;
+        height: 90vh;
+        overflow-x: clip;
+        word-wrap: break-word;
+        text-align: left;
+    }
+
+
+    .profile h1 {
+        font-family: "8-bit";
+        color: rgb(221, 216, 216);
+        text-align: center;
+        margin-top: 3.5vh;
+        font-size: 25px;
+    }
+
+    .profile h1+h2 {
+        font-family: "8-bit";
+        color: rgb(221, 216, 216);
+        padding-top: 13vh;
+    }
+
+    .profile h2 {
+        font-size: 16px;
+    }
+
+    .profile .contact {
+        position: absolute;
+        right: 13vw;
+        top: 10vh;
+        display: flex;
+        flex-direction: row;
+        margin-right: 2vw;
+    }
+
+    .profile .contact img {
+        margin-left: 8vw;
+    }
+
+    .profile p {
+        font-size: 15px;
+
+    }
+
+    .profile button {
+        top: 25px;
+        left: 80vw;
+    }
+
+    .contact {
+        display: none;
+
+    }
+
+    .contact img {
+        width: 15vw;
+    }
+
+    .getReady {
+        font-size: 20px;
+    }
+
+    .getReadyContainer {
+        width: 35vw;
+        height: 20vh;
+    }
+
+    .table {
+        margin-top: -27vh;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 90vw !important;
+        height: 22vw !important;
+        padding-top: 0;
+    }
+
+    .table ul {
+        display: flex;
+        flex-direction: row !important;
+        list-style: none;
+        flex-wrap: wrap;
+        /* gap: 6vw !important; */
+        line-height: 5vh;
+        margin-left: 10vw !important;
+    }
+
+    .table li {
+        margin-top: -4.8vh;
+        font-size: 4vw;
+        line-height: 12vw;
+        margin-right: 10vw !important;
+        margin-top: -8vw;
+    }
+
+    /* this works in chrome 
+    .table li {
+        margin-top: -4.8vh;
+        font-size: 4vw;
+        line-height: 12vw;
+        margin-right: 10vw;
+        margin-top: -10vw;
+    } */
+
+    .red::before {
+        font-size: 2em !important;
+    }
+
+    .blue::before {
+        font-size: 2em !important;
+    }
+
+    .green::before {
+        font-size: 2em !important;
+    }
+
+    .instruction {
+        display: none;
+    }
+
+    .title-icon {
+        margin-right: 0vh;
+        width: 9vw;
+        height: auto;
+        right: 5%;
+        margin-top: 1.2vh;
+    }
+
+    /* #android {
+        position: absolute;
+        right: 18%;
+    } */
+
+    .oneProject {
+        width: 90vw;
+    }
+
+    #icon4 {
+        margin-top: 1.2vh;
+        margin-right: 25vw;
+        right: 0;
+        width: 9vw !important;
+    }
+}

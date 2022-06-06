@@ -1,0 +1,16 @@
+.contact {
+    position: absolute;
+    right: 8vw;
+    top: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+}
+
+.contact img {
+    width: 4.5vw;
+}
+
+.contact img:hover {
+    cursor: pointer;
+}

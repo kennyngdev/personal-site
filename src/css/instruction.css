@@ -1,0 +1,23 @@
+.instruction {
+    border: 0.5vw solid white;
+    box-shadow:
+        2px 2px 2px rgb(167, 167, 167), 0px 1px 1px rgb(167, 167, 167), 0px 3px 7px rgb(167, 167, 167), 1px 1px 1px rgb(167, 167, 167), 1px 2px 1px rgb(167, 167, 167), 1px 3px 1px rgb(167, 167, 167), 2px 2px 1px rgb(167, 167, 167), 2px 3px 1px rgb(167, 167, 167), 2px 4px 1px rgb(167, 167, 167);
+    background-color: black;
+    position: absolute;
+    right: 15.5vw;
+    top: 50vh;
+    width: 30vw;
+    height: 14vh;
+}
+
+.instruction p {
+    color: white !important;
+    font-family: '8-bit';
+    color: rgb(56, 55, 55);
+    font-size: 1vw;
+    text-align: justify;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    line-height: 2.2vh
+}

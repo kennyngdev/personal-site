@@ -1,0 +1,88 @@
+.table {
+    font-family: '8-bit';
+    color: white !important;
+    position: absolute;
+    height: 7vw;
+    top: 30vh;
+    right: 8vw;
+    font-size: 1.1vw;
+    width: 37.6vw;
+    border: 0.5vw solid white;
+    box-shadow:
+        2px 2px 2px rgb(167, 167, 167), 0px 1px 1px rgb(167, 167, 167), 0px 3px 7px rgb(167, 167, 167), 1px 1px 1px rgb(167, 167, 167), 1px 2px 1px rgb(167, 167, 167), 1px 3px 1px rgb(167, 167, 167), 2px 2px 1px rgb(167, 167, 167), 2px 3px 1px rgb(167, 167, 167), 2px 4px 1px rgb(167, 167, 167);
+}
+
+.table ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+    /* gap: 2.5vw; */
+    text-align: center;
+    justify-content: center;
+    margin-top: 4vh;
+}
+
+/* this works in Chrome
+.table ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 2.5vw;
+    text-align: center;
+    justify-content: center;
+    margin-top: 4vh;
+} */
+
+
+.table li {
+    color: white !important;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.red::before {
+    content: '■';
+    font-size: 1.2em;
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: red;
+    /* Change the color */
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    /* Also needed for space (tweak if needed) */
+}
+
+.blue::before {
+    content: '■';
+    font-size: 1.2em;
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: blue;
+    /* Change the color */
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    /* Also needed for space (tweak if needed) */
+}
+
+.green::before {
+    content: '■';
+    font-size: 1.2em;
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: greenyellow;
+    /* Change the color */
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    /* Also needed for space (tweak if needed) */
+}

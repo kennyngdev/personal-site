@@ -1,0 +1,105 @@
+.profile {
+    width: 80vw;
+    height: 80vh;
+    z-index: 99;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    transition: width 600ms ease-out, height 600ms ease-out;
+    border-top: solid 3px rgb(167, 167, 167);
+    border-left: solid 3px rgb(167, 167, 167);
+    box-shadow:
+        2px 2px 2px rgb(167, 167, 167), 0px 1px 1px rgb(167, 167, 167), 0px 2px 1px rgb(167, 167, 167), 1px 1px 1px rgb(167, 167, 167), 1px 2px 1px rgb(167, 167, 167), 1px 3px 1px rgb(167, 167, 167), 2px 2px 1px rgb(167, 167, 167), 2px 3px 1px rgb(167, 167, 167), 2px 4px 1px rgb(167, 167, 167), 2px 5px 1px rgb(167, 167, 167), 2px 6px 1px rgb(167, 167, 167);
+
+    overflow-y: scroll;
+
+}
+
+.profile h1 {
+    font-family: "8-bit";
+    color: rgb(221, 216, 216);
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.profile h2 {
+    font-family: "8-bit";
+    color: rgb(221, 216, 216);
+    padding-left: 3vw;
+    padding-top: 3vh;
+}
+
+.profile p {
+    font-size: 1.3vw;
+    font-family: "8-bit";
+    color: rgb(221, 216, 216);
+    padding-left: 3vw;
+    padding-top: 2.8vh;
+    line-height: 3vh;
+}
+
+.profile #mailto:hover {
+    color: blue;
+}
+
+.profile .contact {
+    position: absolute;
+    right: 4vw;
+    top: 10vh;
+    display: flex;
+    flex-direction: row;
+    gap: 5vh;
+}
+
+.goBack {
+    color: black;
+    background: lightgray;
+    position: absolute;
+    top: 3vh;
+    left: 95%;
+    width: 40px;
+    height: 40px;
+}
+
+.goBack img {
+    width: 20px;
+    margin-top: 2px;
+}
+
+.profile-hidden {
+    width: 1vw;
+    height: 1vh;
+    z-index: -99;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    animation-duration: 1s;
+    opacity: 0;
+}
+
+.getReadyContainer {
+    z-index: 99;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 20vw;
+    height: 15vh;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border: 0.5vw solid white;
+    box-shadow:
+        2px 2px 2px rgb(167, 167, 167), 0px 1px 1px rgb(167, 167, 167), 0px 3px 7px rgb(167, 167, 167), 1px 1px 1px rgb(167, 167, 167), 1px 2px 1px rgb(167, 167, 167), 1px 3px 1px rgb(167, 167, 167), 2px 2px 1px rgb(167, 167, 167), 2px 3px 1px rgb(167, 167, 167), 2px 4px 1px rgb(167, 167, 167);
+}
+
+.getReady {
+    text-align: center;
+    color: white;
+    font-size: 1.8vw;
+    font-family: "8-bit";
+    padding-top: 2vh;
+    line-height: 5vh;
+}

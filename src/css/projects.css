@@ -1,0 +1,38 @@
+.projects {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    align-content: center;
+    align-items: center;
+    margin-top: 4vh;
+}
+
+.oneProject {
+    border: solid 1px white;
+    width: 75vw;
+    padding-bottom: 3vh;
+}
+
+.oneProject span {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+.oneProject h2:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.title-icon {
+    margin-top: 1vh;
+    width: 3vw;
+    height: auto;
+}
+
+#icon4 {
+    margin-top: 1vh;
+    width: 3vw;
+    height: auto;
+}
