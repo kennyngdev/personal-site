@@ -334,7 +334,7 @@ const App = () => {
       <Contact />
       <Instruction />
       <div
-        className={width < 420 ? "profile" : "profile-hidden"}
+        className={width < 600 ? "profile" : "profile-hidden"}
         id="welcoming-msg"
       >
         <h1>Hi!</h1>

@@ -11,22 +11,6 @@ function Profile({
   timer,
   setTimer,
 }) {
-  // const [showReadyText, setShowReadyText] = useState(false);
-  // const [timer, setTimer] = useState(0);
-  // useEffect(() => {
-  //   if (timer > 0) {
-  //     setTimeout(() => {
-  //       console.log("startTime, ", timer);
-  //       setTimer(timer - 1);
-  //     }, 1000);
-  //   }
-  //   if (timer === 0 && showReadyText) {
-  //     console.log("done");
-  //     setShowReadyText(false);
-  //     continueGame();
-  //   }
-  // }, [timer, showReadyText]);
-  // style={showProfile ? null : { display: "none" }}
   return (
     <>
       <div className={showProfile ? "profile" : "profile-hidden"}>

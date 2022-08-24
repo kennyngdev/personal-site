@@ -6,7 +6,6 @@ function Table() {
       <ul>
         <li className="red">Profile</li>
         <li className="green">Projects</li>
-
         <li className="blue">Snack</li>
       </ul>
     </div>
