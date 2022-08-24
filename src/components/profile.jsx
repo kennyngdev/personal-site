@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "../css/profile.css";
 import { default as closeIcon } from "../close.svg";
 import Contact from "./contact";

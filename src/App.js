@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useReducer } from "react";
 import cs from "classnames";
 import Profile from "./components/profile";
-import Timer from "./components/timer";
 import Arrows from "./components/arrows";
 import Table from "./components/table";
 import Contact from "./components/contact";
@@ -330,7 +329,6 @@ const App = () => {
         timer={timer}
         setTimer={setTimer}
       />
-      <Timer />
       <Arrows switchDirection={switchDirection} />
       <Table />
       <Contact />

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React from "react";
 import { default as githubIcon } from "../icons/github128.png";
 import { default as twitterIcon } from "../icons/twitter128.png";
 import { default as linkedinIcon } from "../icons/linkedin128.png";

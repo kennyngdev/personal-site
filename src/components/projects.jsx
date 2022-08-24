@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "../css/projects.css";
 import { default as closeIcon } from "../close.svg";
 import { default as androidIcon } from "../icons/android.png";
